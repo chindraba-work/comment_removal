@@ -1,0 +1,24 @@
+(?x) # Turn on the ignore white space option
+^( # Start the only capturing group
+    (?: # A non-capturing group to allow for repeating the logic
+        (?: # Capture either of the two options below
+            [^"'/\n] # Capture everything not a single quote, double quote, a slash, or a newline
+            | # OR
+            /(?!/) # Capture a slash not followed by a slash [slash an negative look-ahead slash]
+        )* # As many times as possible, even if none
+        (?(" # Start a conditional match for double-quoted strings
+                (?=(?:\\\\|\\"|[^"])*") # Followed by a properly closed double-quoted string
+            ) # Then
+            (?:"(?:\\\\|\\"|[^"])*") # Capture the whole double-quoted string
+            | # Otherwise
+            (?(' # Start a conditional match for single-quoted strings
+                (?=(?:\\\\|\\'|[^'])*') # Followed by a properly closed single-quoted string
+                ) # Then
+                (?:'(?:\\\\|\\'|[^'])*') # Capture the whole double-quoted string
+                | # Otherwise
+                (?([^/]) # If next character is not a slash
+                .) # Capture that character, it is either a single quote, or a double quote not part of a properly closed
+            ) # end the conditional match for single-quoted strings
+        ) # End the conditional match for double-quoted strings
+    )* # Close the repeating non-capturing group, capturing as many times as possible, even if none
+) # Close the only capturing group
