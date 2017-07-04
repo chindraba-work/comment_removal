@@ -1,0 +1,40 @@
+variable = "5 // \ \\"not // here " variable = 6 / /3 + '7 // \"\' not // here ' and then some //real comment
+FullLine here
+;Second Line here
+  ;third line here
+";fourth line here"
+Fifth Line here /* comment */
+Sixth line here /* comment */ syntax error?
+variable = "5 // \\ \"not // here " variable = 6 //3 + '7 // \"\' not // here ' and then some //real comment
+variable = "5 // \\ \"not // here " variable = 6 / /3 + '7 // \"\' not // here ' and then some //real comment
+variable = "some//thing" and "some\" thing" ////actual comment
+a    //// some comment
+  d /// other comment
+/*** one-liner, c-style block comment  ***/
+variable = 'some//thing' and "some\" thing" ////actual comment
+  c #// later comment
+/******
+ * c-style block comment two
+ * Multi-line -1 //extra non-comment
+ * Multi-line 2  # extra non-comment
+ *******/
+variable = "some thing" and "some \\ thing else" ////actual comment
+    /// some comment
+/******
+ * c-style block comment two
+ * Multi-line -3 //extra non-comment
+ * Multi-line 4  # extra non-comment
+ *******/ more syntax errors?
+variable = "some \"thing" ////actual comment
+   // other comment
+variable = 'some//thing' ////actual comment
+  // later comment
+variable = 'some thing' ////actual comment
+//last comment
+"qwe\" qwe" \\asd
+variable = 'some \'thing' ////actual comment
+Variable = 4 no comment
+Variable = 45 no comment /* is this a c-legal comment */
+Variable = 46 no comment /* is this a c-legal comment */
+variable = "5 // not here "
+variable = "5 // \\ \"not // here " variable = 6 / /3 + '7 // \"\' not // here ' and then some //real comment //nestes
