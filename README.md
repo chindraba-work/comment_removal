@@ -3,7 +3,7 @@ Regular Expression to Remove Comments
 
 ## Problem
 
-This was developed in response to a question on Stack Overflow, [Removing comments using regex](https://stackoverflow.com/q/42287216/7412956). My answer on Stack Overflow is [here](https://stackoverflow.com/a/42437107/7412956).
+This was developed in response to a question on Stack Overflow, [Removing comments using regex](https://stackoverflow.com/q/42287216/7412956).
 
 What the OP needed was a regular expression to use in C# to remove comnents from lines of a file. All comments were specified as beginning with a double slash `//` and everything after that is ignored. Comments may also begin at the start of a line, resulting in the line being blank. Quotes, double or single, when properly closed, will _shield_ any double slashes from triggering a comment.
 
