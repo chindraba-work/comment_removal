@@ -31,5 +31,12 @@ When used the pattern will return the non-comment portion of the line(s). The pa
 
 The only time that it trips up is if there is a double slash inside a _seemingly_ quoted string and somehow that string is malformed and the double slash ends up legally outside the properly quoted portion. Syntactically that makes it a valid comment, even though not the programmer's intention. So, from the programmer's perspective it's wrong, but by the rules, it really is a comment. Meaning, the pattern only appears to trip up.
 
-As mentioned above, the conditional match grouping has limited support. It will fail in many of the online regular expression testing sites because of the conditional construct.  I choose to do my testing in the [.NET Regex Tester](http://regexstorm.net/tester), which can handle those constructs. It includes a nice Reference as well. Given the proper selections on the side, you can test either version above, and experiment with it as well. 
+As mentioned above, the conditional match grouping has limited support. It will fail in many of the online regular expression testing sites because of the conditional construct.  I choose to do my testing in the [.NET Regex Tester](http://regexstorm.net/tester), which can handle those constructs. It includes a nice Reference as well. Given the proper selections on the side, you can test either version above, and experiment with it as well.
 
+## License
+
+The code snippet is Copyright © 2017 Ronald Lamoreaux - All Rights Reserved
+
+The code is released under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) (as given by the [Open Source Initiative](https://opensource.org/). A copy of the MIT License should be available with this code, otherwise, a copy of the MIT License is available at [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
+
+As a consequence of the code being posted on Stack Overflow it also can be considered released under [cc by-sa 3.0](https://creativecommons.org/licenses/by-sa/3.0/) with [attribution required](https://stackoverflow.blog/2009/06/25/attribution-required/). While the cc by-sa seems to be a poor fit for software it fits well with the model of [Stack Overflow](https://stackoverflow.com/), and the [Stack Exchange Network](https://stackexchange.com/). If the text of the question or answer on Stack Overflow is used, the cc by-sa 3.0 license still applies. Only the code, and other text here, is additionally available under the MIT License.
