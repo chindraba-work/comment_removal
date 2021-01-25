@@ -40,3 +40,24 @@ The code snippet is Copyright © 2017 Ronald Lamoreaux - All Rights Reserved
 The code is released under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) (as given by the [Open Source Initiative](https://opensource.org/). A copy of the MIT License should be available with this code, otherwise, a copy of the MIT License is available at [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
 
 As a consequence of the code being posted on Stack Overflow it also can be considered released under [cc by-sa 3.0](https://creativecommons.org/licenses/by-sa/3.0/) with [attribution required](https://stackoverflow.blog/2009/06/25/attribution-required/). While the cc by-sa seems to be a poor fit for software it fits well with the model of [Stack Overflow](https://stackoverflow.com/), and the [Stack Exchange Network](https://stackexchange.com/). If the text of the question or answer on Stack Overflow is used, the cc by-sa 3.0 license still applies. Only the code, and other text here, is additionally available under the MIT License.
+
+### The MIT License
+
+    Permission is hereby granted, free of charge, to any person
+    obtaining a copy of this software and associated documentation
+    files (the "Software"), to deal in the Software without restriction,
+    including without limitation the rights to use, copy, modify, merge,
+    publish, distribute, sublicense, and/or sell copies of the Software,
+    and to permit persons to whom the Software is furnished to do so,
+    subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be
+    included in all copies or substantial portions of the Software
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGE-
+    MENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+    FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+    CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
